@@ -16,4 +16,12 @@ print(quote.hasSuffix("away..."))
 let meaningOfLife = topic.count
 print(meaningOfLife)
 
+var results = 0
+results += 5
+print(results)
+results *= 7
+print(results)
+print(results.isMultiple(of: 5))
+
+print(results,"=", quote)
 
